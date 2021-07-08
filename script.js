@@ -3,7 +3,7 @@ function menu() {
     let closeBtn = hamburger.getAttribute('src');
     let mobileMenu = document.querySelector('.menu');
 
-    if (closeBtn == "/images/icon-hamburger.svg") {
+    if (closeBtn == "icon-hamburger.svg") {
         hamburger.setAttribute('src', 'icon-close.svg');
         mobileMenu.style.display = 'block';
     } else {
