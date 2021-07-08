@@ -83,7 +83,7 @@ nav ul li a:hover {
   text-align: center;
   width: 100%;
   height: 560px;
-  background-image: url(image-header.jpg);
+  background-image: url(/images/desktop/image-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -128,12 +128,12 @@ nav ul li a:hover {
   height: 100%;
 }
 .thirdSection-image1 {
-  background: url(image-graphic-design.jpg);
+  background: url(/images/desktop/image-graphic-design.jpg);
   background-repeat: no-repeat;
   background-size: auto;
 }
 .thirdSection-image2 {
-  background: url(image-photography.jpg);
+  background: url(/images/desktop/image-photography.jpg);
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -365,12 +365,12 @@ nav ul li a:hover {
     background-color: hsl(30, 75%, 98%);
   }
   .thirdSection-image1 {
-    background: url(image-graphic-design.jpg);
+    background: url(/images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .thirdSection-image2 {
-    background: url(image-photography.jpg);
+    background: url(/images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
