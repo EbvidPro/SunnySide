@@ -128,12 +128,12 @@ nav ul li a:hover {
   height: 100%;
 }
 .thirdSection-image1 {
-  background: url(/images/desktop/image-graphic-design.jpg);
+  background: url(image-graphic-design.jpg);
   background-repeat: no-repeat;
   background-size: auto;
 }
 .thirdSection-image2 {
-  background: url(/images/desktop/image-photography.jpg);
+  background: url(image-photography.jpg);
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -365,12 +365,12 @@ nav ul li a:hover {
     background-color: hsl(30, 75%, 98%);
   }
   .thirdSection-image1 {
-    background: url(/images/desktop/image-graphic-design.jpg);
+    background: url(image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .thirdSection-image2 {
-    background: url(/images/desktop/image-photography.jpg);
+    background: url(image-photography.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
