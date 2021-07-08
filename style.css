@@ -1,0 +1,422 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+}
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 44px;
+  margin-top: 120px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.header {
+  background-color: #3ebfff;
+  position: relative;
+}
+.headerLogo {
+  position: relative;
+  width: 193px;
+  height: 38px;
+  left: 30px;
+  top: 30px;
+}
+.hamburg {
+  display: none;
+  position: absolute;
+  right: 3rem;
+  top: 2.5rem;
+}
+nav {
+  text-align: right;
+  margin: -10px 30px 0px 30px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  font-weight: 600;
+  color: royalblue;
+}
+.btn1 {
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 60px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+}
+.btn1:hover {
+  background-color: rgba(255, 255, 255, 0.534);
+  color: white;
+}
+.image-header {
+  text-align: center;
+  width: 100%;
+  height: 560px;
+  background-image: url(/images/desktop/image-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.image-header img {
+  width: 35px;
+  margin-top: 90px;
+  align-items: center;
+}
+.firstSection,
+.secondSection,
+.thirdSection {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.firstSection-card,
+.secondSection-card {
+  display: block;
+  padding: 10rem 7rem 5rem 7rem;
+  background-color: hsl(30, 75%, 98%);
+}
+.learnBtn1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin-top: 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  text-decoration: underline hsl(51, 100%, 49%) 5px;
+}
+.learnBtn1:hover {
+  text-decoration: underline hsl(7, 99%, 70%) 3px;
+}
+.firstSection-image img,
+.secondSection-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.thirdSection-image1 {
+  background: url(/images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.thirdSection-image2 {
+  background: url(/images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.thirdSection-card {
+  margin: 20rem 8rem 5rem 8rem;
+}
+.thirdSection-image2 h2,
+.thirdSection-image2 p {
+  text-align: center;
+  color: hsl(198, 62%, 26%);
+}
+.thirdSection-image1 h2,
+.thirdSection-image1 p {
+  color: hsl(167, 40%, 24%);
+  text-align: center;
+}
+.thirdSection {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: auto;
+}
+#testimonials {
+  background-color: hsl(30, 75%, 98%);
+  padding-bottom: 7rem;
+}
+#testimonials h3 {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 10rem;
+  color: hsl(213, 9%, 39%);
+  letter-spacing: 3px;
+}
+.testimonial-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  padding: 50px;
+  grid-gap: 20px;
+}
+.dp {
+  width: 72px;
+  border-radius: 36px;
+  margin-bottom: 32px;
+}
+
+.testimonial-container p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  padding-top: 30px;
+  line-height: 0;
+}
+
+.job-role {
+  color: (var(--Grayish-blue));
+  opacity: 0.5;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 3px;
+}
+.image-gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  overflow: hidden;
+}
+.image-gallery img {
+  width: 100%;
+}
+.footer {
+  background-color: hsl(168, 34%, 41%);
+  text-align: center;
+}
+.footerCard {
+  padding: 50px 0px 20px 0px;
+}
+.footerLogo {
+  text-align: center;
+  filter: invert(1) brightness(30) contrast(58%);
+}
+.footer ul {
+  text-align: center;
+  padding-top: 30px;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.footer li a {
+  color: hsl(212, 27%, 19%);
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer li a:hover {
+  color: white;
+}
+.social-icons {
+  padding-top: 40px;
+}
+.social-icons a {
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.social-icons img:hover {
+  filter: invert(0.5) brightness(50);
+  fill: white;
+}
+.attribution {
+  background-image: linear-gradient(
+    90deg,
+    var(--Very-light-red),
+    var(--Light-red)
+  );
+  text-align: center;
+  padding-top: 20px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--Very-dark-blue-headings);
+  font-weight: bolder;
+  color: #3ebfff;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+  color: white;
+}
+@media screen and (max-width: 1200px) {
+  .image-header img {
+    width: 35px;
+    margin-top: 150px;
+    align-items: center;
+  }
+  .firstSection-card,
+  .secondSection-card {
+    display: block;
+    padding: 4rem 3rem 0px 3rem;
+    background-color: hsl(30, 75%, 98%);
+  }
+  .thirdSection-card {
+    display: block;
+    margin: 15rem 3rem 5rem 3rem;
+    color: rgb(92, 100, 100);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    display: none;
+    text-align: center !important;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content;
+    width: 70%;
+    margin: -10px 30px 0px 30px;
+    height: max-content;
+    background: White;
+    justify-content: center !important;
+    border-radius: 6px;
+    padding: 1rem;
+    position: absolute;
+    top: 7rem;
+    box-shadow: 0 1rem 10rem rgba(0 0 0/0.2), 0 1rem 4rem rgba(0 0 0/0.2);
+    z-index: 999;
+  }
+  nav ul {
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+  }
+  nav ul li {
+    display: grid;
+    padding: 0px 20px 0px 20px;
+  }
+  nav ul li a {
+    display: block;
+    color: rgb(100, 90, 90);
+    padding: 10px;
+  }
+  nav ul li a:hover {
+    color: black;
+    font-style: bold;
+  }
+  .btn1 {
+    background-color: hsl(51, 100%, 49%);
+    padding: 12px 18px 12px 18px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .btn1:hover {
+    background-color: hsla(51, 100%, 49%, 0.596);
+    color: black;
+  }
+  .hamburg {
+    display: inline-block;
+  }
+  .hamburg:hover {
+    cursor: pointer;
+  }
+  .footer nav {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .firstSection,
+  .secondSection,
+  .thirdSection {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .firstSection {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .firstSection-card,
+  .secondSection-card {
+    display: block;
+    text-align: center;
+    padding: 5rem;
+    background-color: hsl(30, 75%, 98%);
+  }
+  .thirdSection-image1 {
+    background: url(/images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .thirdSection-image2 {
+    background: url(/images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .testimonial-container {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    padding: 50px;
+    grid-gap: 80px;
+  }
+  .testimonial-container p {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .learnBtn1 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    margin-top: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    text-decoration: underline hsl(51, 100%, 49%) 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .headerLogo {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    left: 20px;
+    top: 30px;
+  }
+  h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+  }
+  h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 27px;
+    margin-bottom: 36px;
+  }
+}
